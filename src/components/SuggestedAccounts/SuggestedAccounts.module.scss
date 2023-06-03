@@ -1,0 +1,68 @@
+.fllowing-account {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+  margin-top: 10px;
+  padding: 0 8px;
+}
+
+.wrapper {
+  border-top: 1px solid #e4e4e4;
+}
+
+.account-item {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover {
+    background: rgba(22, 24, 35, 0.03);
+  }
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.body {
+  flex: 1;
+  margin-right: 12px;
+}
+
+.nickname {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 23px;
+}
+
+.check {
+  width: 14px;
+  margin-left: 4px;
+  color: #20d5ec;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: rgba(22, 24, 35, 0.75);
+  line-height: 15px;
+}
+
+.more-btn {
+  font-size: 1.5rem;
+  color: var(--primary);
+  margin-top: 10px;
+  padding: 0 8px;
+  cursor: pointer;
+}
+
+.account-result {
+  width: 320px;
+}

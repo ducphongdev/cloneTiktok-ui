@@ -1,0 +1,194 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  display: flex;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba($color: rgba(0, 0, 0), $alpha: 0.5);
+  z-index: 11;
+}
+
+.wrapper {
+  position: relative;
+  width: 485px;
+  margin: auto;
+  z-index: 12;
+  background-color: var(--while);
+  border-radius: 8px;
+}
+
+.containes {
+  height: 88%;
+  overflow: hidden;
+  overflow: auto;
+}
+
+.form {
+  width: 375px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  color: var(--black);
+  margin: 16px;
+  font-weight: 200;
+}
+
+.wraper {
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 15px;
+  height: 44px;
+  border: 1px solid rgba(22, 24, 35, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 14px;
+}
+
+.icon {
+  position: absolute;
+  left: 12px;
+  width: 20px;
+}
+
+.titleBtn {
+  font-weight: 700;
+}
+
+.fotter {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 63px;
+  background-color: var(--while);
+  border-top: 1px solid var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fotterTitle {
+  font-size: 1.5rem;
+  margin-right: 5px;
+  opacity: 0.8;
+}
+
+.singnUp {
+  font-size: 1.6rem;
+  color: var(--primary);
+  cursor: pointer;
+}
+
+//Sign Up
+.formtown {
+  width: 375px;
+  margin: auto;
+  text-align: center;
+}
+
+.contin {
+  font-size: 1.4rem;
+  margin: auto;
+  align-items: center;
+  margin-top: -45px;
+}
+
+// Phone Login
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+
+.styledLink {
+  font-size: 1.2rem;
+  color: #50525a;
+}
+
+.input {
+  width: 100%;
+  height: 46px;
+  border-radius: 6px;
+  background-color: #f1f1f2;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(22, 24, 35, 0.12);
+  margin-bottom: 15px;
+}
+
+.spanLabel {
+  position: relative;
+  width: 100px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: rgb(22, 24, 35);
+  border-right: 1px solid #d7d7d9;
+  padding: 12px;
+}
+
+.icon-down {
+  position: absolute;
+  right: 0;
+  font-size: 1.2rem;
+  padding-right: 12px;
+}
+
+.input_number {
+  flex: 1;
+}
+
+.inputContainer {
+  width: 100%;
+  padding-left: 12px;
+  height: 100%;
+  background: transparent;
+  font-size: 1.5rem;
+  color: rgb(22, 24, 35);
+  caret-color: rgb(254, 44, 85);
+}
+
+.send_Code {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #bab4ae;
+  border-left: 1px solid #d7d7d9;
+}
+
+.text {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--black);
+  text-align: left;
+  display: block;
+}
+
+.submit {
+  width: 100%;
+  height: 46px;
+  background-color: #f1f1f2;
+  margin-top: 27px;
+  color: #a7a7ab;
+}
